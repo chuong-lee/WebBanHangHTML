@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var chieucao=prompt("Nhập chiều cao");
+        var cannang=prompt("Nhập cân nặng");
+        var BIM=cannang/(chieucao*chieucao);
+        if (BIM <18.5){
+            console.log("Thiếu cân");
+        }else if (BIM >= 18.5 && BIM <= 24.99){
+            console.log("Bình Thường");
+        }else if(BIM >= 25 && BIM <= 29.99){
+            console.log("Thừa cân");
+        }else{
+            console.log("Béo Phì");
+        }
+
+    </script>
+</body>
+</html>
